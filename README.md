@@ -20,7 +20,7 @@ Este é um projeto simples de um gerador de senhas aleatórias desenvolvido com 
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/dev-medeiros/estudos_senhas_aleat-rias.git
+    git clone https://github.com/dev-medeiros/estudos_gerador_senhas.git
     ```
 
 2. Navegue até o diretório do projeto:
