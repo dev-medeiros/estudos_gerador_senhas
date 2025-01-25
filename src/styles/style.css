@@ -1,0 +1,112 @@
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 2em;
+}
+
+/* Estilos para a seção de descrição */
+.description {
+    margin-bottom: 2em;
+}
+
+/* Estilos para o gerador de senhas */
+.password-generator {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+/* Estilos para os rótulos */
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+}
+
+/* Estilos para os campos de entrada */
+input[type="number"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para os botões */
+button {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    margin: 1em 0;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Estilos para os botões ao passar o mouse */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para o contêiner de saída da senha */
+#password-output-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+/* Estilos para o campo de saída da senha */
+#password-output {
+    font-size: 1.2em;
+    background-color: #e0e0e0;
+    padding: 1em;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+
+/* Estilos para o botão de copiar */
+#copy-button {
+    display: none;
+    background-color: #008CBA;
+}
+
+/* Estilos para o botão de copiar ao passar o mouse */
+#copy-button:hover {
+    background-color: #007bb5;
+}
+
+/* Estilos para o rodapé */
+footer {
+    margin-top: 2em;
+    padding: 1em 0;
+    background-color: #4CAF50;
+    color: white;
+}

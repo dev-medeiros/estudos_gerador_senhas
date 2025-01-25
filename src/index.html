@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Link para a biblioteca de ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Link para a fonte Roboto do Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+</head>
+<body>
+    <header>
+        <h1>Gerador de Senhas Aleatórias</h1>
+    </header>
+    <main>
+        <section class="description">
+            <p>Use nosso gerador de senhas para criar senhas seguras e aleatórias. Basta escolher a quantidade de caracteres e clicar em "Gerar Senha". Você pode visualizar e copiar a senha gerada.</p>
+        </section>
+        <section class="password-generator">
+            <label for="password-length">Quantidade de caracteres:</label>
+            <input type="number" id="password-length" min="1" max="100" value="8">
+            <button onclick="generatePassword()">Gerar Senha</button>
+            <div id="password-output-container">
+                <input type="text" id="password-output" readonly>
+            </div>
+            <button id="copy-button" onclick="copyPassword()" style="display: none;">Copiar Senha</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Gerador de Senhas</p>
+    </footer>
+    <!-- Link para o arquivo JavaScript -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
